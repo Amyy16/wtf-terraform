@@ -85,3 +85,9 @@ module "ec2-modules" {
   subnet_id = module.vpc-modules.subnet_id
   
 }
+
+resource "aws_instance" "wtf_server" {
+  instance_type = "t3.micro"
+  ami = "ami-0ecb62995f68bb549"
+  region = "us-east-1"
+} 

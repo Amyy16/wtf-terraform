@@ -1,4 +1,5 @@
 .terraform*
-my_key.pub
 terraform.tfstate*
 terraform.tfvars*
+my_key_wtf.pub
+my_key
